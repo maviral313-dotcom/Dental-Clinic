@@ -1,0 +1,62 @@
+.practice-thq-practice-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-threeunits);
+  border-color: #B4B9C6;
+  flex-direction: column;
+  border-top-width: 1px;
+}
+ 
+.practice-thq-heading-elm {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.practice-thq-header-elm {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+ 
+.practice-thq-caption-elm {
+  max-width: 385px;
+  line-height: 24px;
+}
+ 
+.practice-text1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+ 
+.practice-image {
+  width: 12px;
+  object-fit: cover;
+}
+ 
+.practice-fragment {
+  display: contents;
+}
+ 
+.practice-text2 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .practice-thq-practice-elm {
+    padding-top: var(--dl-layout-space-oneandhalfunits);
+  }
+  .practice-thq-header-elm {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .practice-thq-caption-elm {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
